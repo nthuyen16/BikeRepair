@@ -1,0 +1,30 @@
+body{
+  border: 2px solid orangered;
+  height: 700px;
+  padding: 5px;
+}
+.wrapbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 16.66666%;
+  padding-right: 5px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+.box p{
+  background-color: orangered;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  border: 1px solid black;  
+}
+.box-min{ 
+  width: 40%;
+}
+.box-max{
+  width: 60%;
+}

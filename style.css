@@ -1,0 +1,251 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    /* giống thẻ hr*/
+}
+
+.navbutton {
+    border: 1px solid #fff;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+    /* border-radius: 10px; */
+    /* box-shadow: -10px 10px black; */
+}
+
+.navbutton a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-box::before {
+    content: "";
+    background-color: transparent;
+    height: 7px;
+    width: 87px;
+    position: absolute;
+    bottom: 100%;
+    left: 25px;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    top: 120%;
+}
+
+.dropdown-box .subnav {
+    background-color: #fff;
+    padding: 11px 25px;
+    width: 120px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown-box {
+    display: block;
+}
+
+.subnav a {
+    color: #FA4083;
+}
+
+.subnav:hover,
+.navbutton:hover {
+    background-color: gray;
+}
+
+.contact {
+    width: 80%;
+    padding-left: 85px;
+    margin-top: 10px;
+}
+
+.contact-us {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact h1 {
+    padding-top: 30px;
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+.contact p {
+    line-height: 1.75rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+
+.input-info {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.text-question {
+    margin-top: 25px;
+}
+
+.send {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 90px;
+    height: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.text-box {
+    max-width: 50%;
+}
+
+.img-box {
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+.card-book,
+.card-service,
+.card-advice {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cards a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-book {
+    background-image: url(images/image-background-card1.jpg);
+    width: 30%;
+    min-height: 250px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.card-service {
+    background-image: url(images/image-background-card2.jpg);
+    width: 30%;
+    min-height: 250px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.card-advice {
+    background-image: url(images/image-background-card3.jpg);
+    width: 30%;
+    min-height: 300px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    padding: 10px 30px 20px 30px;
+}
+
+.mybutton {
+    background-color: #fff;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    border: 0 #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 11px 25px;
+    text-decoration: none;
+}
+
+.cards i {
+    font-size: 6.25rem;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.testimonials .tbox {
+    width: 47%;
+    border: 1px solid #fff;
+    margin-top: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
